@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+}
+ul {
+	text-align: center;
+	padding: 0;
+	list-style-type: none;
+	background-color: #444;
+}
+li {
+	display: inline-block;
+	margin: 5px 30px;
+	padding: 5px;
+	background-color: #FFF;
+	transition: 0.3s;
+}
+li:hover {
+	background-color: red;
+}
+li:hover a {
+	color: #FFF;
+}
+button {
+	border: none;
+	background-color: purple;
+	color: #FFF;
+	padding: 15px 30px;
+}
+.buttons {
+	width: 80%;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
